@@ -14,6 +14,11 @@ It comes in two flavours:
 
 Both use the exact same "brain" under the hood.
 
+> **Quick start:** `pip install -r requirements.txt`, put your
+> `OPENAI_API_KEY` in a `.env` file, then run
+> `python -m uvicorn server:app --reload` and open
+> <http://127.0.0.1:8000>. Full details are below.
+
 ---
 
 ## Table of contents
